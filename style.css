@@ -1,0 +1,53 @@
+/* 
+Theme Name: Dental Funnel The Platform Child
+Theme URI: https://www.dentalfunnels.site/
+Description: Dental Funnel The Platform Child is a child theme of Hello Elementor.
+Author: Dental Implant Machine
+Author URI: https://www.dentalfunnels.io/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: dfp-theme-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+
+.section-padding-x{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.section-padding > div {
+	padding: 130px 0 !important;
+}
+
+@media screen and (max-width: 1280px) {
+	.section-padding > div {
+		padding: 130px 30px !important;
+	}
+	.section-padding-x{
+		padding-left: 30px !important;
+		padding-right: 30px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.section-padding > div {
+		padding: 80px 20px !important;
+	}
+	.section-padding-x{
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	    .btn-fix{
+        width: 100%;
+    }
+    .btn-fix a{
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+        width: 100%;
+    }
+    .btn-fix a .elementor-button-text{
+        flex-grow: 0;
+    }
+}
